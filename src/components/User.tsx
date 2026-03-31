@@ -11,8 +11,8 @@ export function User(){
             <Text className="text-white font-bold text-2x1 mt-4">
                 Levi José de Melo Aguiar
             </Text>
-            <Text className="">
-
+            <Text className="text-gray-400 text-lg">
+                @Levijmaguiar
             </Text>
         </View>
     )
