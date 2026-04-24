@@ -2,16 +2,16 @@ import { StatusBar } from 'expo-status-bar';
 import { View, Text } from 'react-native';
 import "./global.css";
 import { Profile } from '@/app/Profile';
+import { ToastProvider } from '@/components/Toast';
 
 
 export default function App() {
   return (
     <>
-      <Profile/>
-      <Text className="text-xl font-bold text-blue-500">
-        @XeiquisperBr
-      </Text>
-      <StatusBar style="auto" />
+      <ToastProvider>
+        <Profile />
+        <StatusBar style="light" />
+      </ToastProvider>
     </>
   );
 }

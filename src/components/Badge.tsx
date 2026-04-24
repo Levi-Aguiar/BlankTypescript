@@ -9,7 +9,7 @@ const badgeVariants = cva(
     variants: {
       variant: {
         default: 'bg-gray-500 rounded-full',
-        secondary: 'bg-red-500 border border-gray-500 rounded',
+        secondary: 'bg-gray-500 border border-gray-500 rounded',
       },
     },
     defaultVariants: {
@@ -22,7 +22,7 @@ const badgeTextVariants = cva('font-medium text-center text-s', {
   variants: {
     variant: {
       default: 'text-white',
-      secondary: 'text-yellow-300',
+      secondary: 'text-gray-300',
     },
   },
   defaultVariants: {
